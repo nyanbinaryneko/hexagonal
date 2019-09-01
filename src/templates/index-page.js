@@ -6,6 +6,11 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
+const randomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
+const randomByte = () => randomNumber(0, 255)
+const randomPercent = () => (randomNumber(50, 100) * 0.01).toFixed(2)
+const randomCssRgba = () => `rgba(${[randomByte(), randomByte(), randomByte(), randomPercent()].join(',')})`
+
 export const IndexPageTemplate = ({
   image,
   title,
@@ -19,9 +24,9 @@ export const IndexPageTemplate = ({
     <div
       className="full-width-image margin-top-0"
       style={{
-        backgroundImage: `url(${
+        backgroundImage: ` url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
+        }), linear-gradient(${randomCssRgba()}, ${randomCssRgba()})`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
       }}

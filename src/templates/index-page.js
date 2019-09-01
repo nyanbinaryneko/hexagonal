@@ -24,7 +24,6 @@ export const IndexPageTemplate = ({
         })`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
-        backgroundColor: `purple`,
       }}
     >
       <div

@@ -13,13 +13,19 @@ $primary: $bee-dark-yellow
 $primary-invert: $bee-orange-dark
 $body-color: #3A3637
 $black: #23212C
+$primary-bg-color: $bee-off-white
 
 body //hexagonal background
   background-color: $bee-bright-yellow
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%233a3637' fill-opacity='0.27' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
 
+.navbar
+  background-color: $primary-bg-color !important
+
 .navbar .navbar-menu
   box-shadow: none !important
+  .navbar-item:hover
+    color: $primary-invert
 
 .content .taglist
   list-style: none
@@ -65,13 +71,13 @@ body //hexagonal background
     font-size: 18px
     font-size: 1rem
     line-height: 1.25
-    background-color: #fff
+    background-color: $primary-bg-color
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
-    color: #CC3700
+    color: $primary-invert
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
+    -webkit-box-shadow: inset 0 0 0 2px $primary-invert
     box-shadow: inset 0 0 0 2px #f40
     -webkit-transition: all .15s ease
     transition: all .15s ease
@@ -93,13 +99,13 @@ footer.footer
   background-color: transparent
 
 //Menu overrides
-$menu-item-color: $white-ter
+$menu-item-color: $primary-bg-color
 $menu-item-hover-color: $black !important
 $menu-item-hover-background-color: $black
 $menu-item-active-color: $primary-invert
 $menu-item-active-background-color:	$primary-invert
 $menu-list-border-left: 1px solid $primary-invert
-$menu-label-color: $white-ter
+$menu-label-color: $primary-bg-color
 
 
 .menu-label
@@ -113,7 +119,7 @@ $menu-label-color: $white-ter
 .social a
     padding: .5em .5em .3em .5em
     border-radius: 1em
-    background-color: $white-ter
+    background-color: $primary-bg-color
     margin: .5em
     width: 1em
     height: 1em

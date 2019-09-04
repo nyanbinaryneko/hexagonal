@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import '../components/scss/index.scss'
 
 class TagRoute extends React.Component {
   render() {
@@ -22,9 +23,9 @@ class TagRoute extends React.Component {
 
     return (
       <Layout>
-        <section className="section">
+        <section className="section" style={{minHeight: "35em"}}>
           <Helmet title={`${tag} | ${title}`} />
-          <div className="container content">
+          <div className="container content box">
             <div className="columns">
               <div
                 className="column is-10 is-offset-1"

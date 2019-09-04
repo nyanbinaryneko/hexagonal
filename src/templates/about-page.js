@@ -3,13 +3,14 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import '../components/scss/index.scss'
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
     <section className="section section--gradient">
-      <div className="container">
+      <div className="container box">
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section">

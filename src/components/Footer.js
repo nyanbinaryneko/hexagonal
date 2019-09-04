@@ -45,16 +45,11 @@ const Footer = class extends React.Component {
                         Latest Stories
                       </Link>
                     </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact">
-                        Contact
-                      </Link>
-                    </li>
                   </ul>
                 </section>
               </div>
               <div className="column is-4 social">
-                <a title="twitter" href="https://twitter.com">
+                <a title="twitter" href="https://twitter.com/comradeeevee">
                   <img
                     className="fas fa-lg"
                     src={twitter}

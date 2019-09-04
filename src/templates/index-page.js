@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
 const randomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
@@ -39,15 +38,13 @@ export const IndexPageTemplate = ({
           justifyContent: 'space-around',
           alignItems: 'left',
           flexDirection: 'column',
+          backgroundColor: '#fef6d0'
         }}
       >
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
-            boxShadow:
-              '#992409 0.5rem 0px 0px, #992409 -0.5rem 0px 0px',
-            backgroundColor: '#992409',
-            color: '#fef6d0',
+            color: '#992409',
             lineHeight: '1',
             padding: '0.25em',
           }}
@@ -57,10 +54,7 @@ export const IndexPageTemplate = ({
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
-            boxShadow:
-              '#992409 0.5rem 0px 0px, #992409 -0.5rem 0px 0px',
-            backgroundColor: '#992409',
-            color: '#fef6d0',
+            color: '#992409',
             lineHeight: '1',
             padding: '0.25em',
           }}
@@ -70,7 +64,7 @@ export const IndexPageTemplate = ({
       </div>
     </div>
     <section className="section section--gradient">
-      <div className="container">
+      <div className="container pitch">
         <div className="section">
           <div className="columns">
             <div className="column is-10 is-offset-1">
@@ -89,14 +83,6 @@ export const IndexPageTemplate = ({
                       {heading}
                     </h3>
                     <p>{description}</p>
-                  </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
                   </div>
                 </div>
                 <div className="column is-12">

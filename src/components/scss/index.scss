@@ -1,0 +1,6 @@
+@import './vars.scss';
+.pitch {
+  background-color: $primary-bg-color;
+  padding: 2em;
+  @include bevel(2em);
+} 

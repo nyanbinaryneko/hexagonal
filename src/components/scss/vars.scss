@@ -12,18 +12,5 @@ $primary-bg-color: $bee-off-white;
 
 
 @mixin bevel($size){
-    clip-path: polygon(
-      // Top left corner points.
-      0%          #{$size},
-      #{$size}    0%,
-      // Top right corner points.
-      calc(100% - #{$size}) 0%,
-      100%        #{$size},
-      // Bottom right corner points.
-      100%        calc(100% - #{$size}),
-      calc(100% - #{$size}) 100%,
-      // Bottom left corner points.
-      #{$size}    100%,
-      0%          calc(100% - #{$size})
-    )
+    clip-path: polygon(0 50%,#{$size} 0,calc(100% - #{$size}) 0,100% 50%,100% 50%,calc(100% - #{$size}) 100%,#{$size} 100%,0 50%)
   }

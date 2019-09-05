@@ -25,7 +25,7 @@ It started with a shitpost, as all good things in life do.
 
 ## What is it about?
 
-The goal of the HexaCult is simple. Maximum Productivity and Better living through Hexacons. We don't have many rules, just Praise Hexagon, Maximize Productivity, and Be Excellent to your fellow humans and anthromorphic animals. 
+The goal of the HexaCult is simple. Maximum Productivity and Better living through Hexagons. We don't have many rules, just Praise Hexagon, Maximize Productivity, and Be Excellent to your fellow humans and anthromorphic animals. 
 
 ## How do I join?
 

@@ -1,7 +1,7 @@
 @import './vars.scss';
 .box {
   background-color: $primary-bg-color;
-  padding: 2em, 4em;
+  padding: 2em 4em;
   @include bevel(2em);
 } 
 

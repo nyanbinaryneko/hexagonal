@@ -12,7 +12,7 @@ tags:
 ---
 # Praise Hexagon!
 
-I have finally finished the site where I will collect the lore of the HexaCult, as well as ny derivative works about the HexaCult.
+I have finally finished the site where I will collect the lore of the HexaCult, as well as any derivative works about the HexaCult.
 
 ## How did this start?
 

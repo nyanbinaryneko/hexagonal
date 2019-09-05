@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Hexago.nl
 image: /img/37436.png
-heading: Great coffee with a conscience
+heading: Better Productivity through Hexagons
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: Why Kaldi

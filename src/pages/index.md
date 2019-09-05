@@ -1,21 +1,20 @@
 ---
 templateKey: index-page
-title: Hexago.nl
+title: 'Hexago.nl, The Hexacult'
 image: /img/37436.png
 heading: Better Productivity through Hexagons
-subheading: Support sustainable farming while enjoying a cup
+subheading: Achieve Maximum Productivity Through the Power of Hexagons
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  title: Why Hexagons
+  description: >-
+    Hexagons are the most productive shape, they have 6 sides, which makes them
+    visually pleasing. This has been proven with very sciencey-science done by
+    venture capitalists. This is the next step after open offices, AGILE, and
+    beer Fridays: PRODUCTIVITY HEXAGONS!
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Whether you are a Programming Sorcerer(ess), DevOps Bard, Front End Sage, Back
+  End Warlock, or Infosec Squirrel Hermit, you can achieve maximum productivity
+  with the power of Hexagons. Join the Hexacult today!
 intro:
   blurbs:
     - image: /img/coffee.png

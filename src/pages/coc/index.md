@@ -3,7 +3,7 @@ templateKey: about-page
 title: Code of hexaConduct (CohC)
 ---
 ### Basics
-- We are staunchly anti-racism, anti-homophobia, and anti-sexism.
+- We are staunchly anti-racism, anti-homophobia, anti-transphobia, and anti-sexism.
 - We punch up, not down.
 - We believe in discussion, not argument.
 - We hold each other accountable for our actions.

@@ -13,6 +13,7 @@ authorTwitter: "@ComradeEevee"
 tags:
   - CohC
   - Cult
+  - CoC
 ---
 I have posted a Code of hexaConduct. I personally believe this is an important step in creating a community. While we are a community of shitposters, we should hold ourselves to standards and conduct ourselves with the kindness and productivity we wish to see in the world.
 
@@ -26,7 +27,7 @@ CoCs and CohCs offer guidance for interacting with other members and the outside
 
 Here are the Basics:
 
-* We are staunchly anti-racism, anti-homophobia, and anti-sexism.
+* We are staunchly anti-racism, anti-homophobia, anti-transphobia, and anti-sexism.
 * We punch up, not down.
 * We believe in discussion, not argument.
 * We hold each other accountable for our actions.

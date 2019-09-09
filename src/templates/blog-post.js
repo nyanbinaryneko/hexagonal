@@ -9,25 +9,6 @@ import '../components/scss/index.scss'
 import '../components/scss/blog-post.scss'
 import twitter from '../img/social/twitter.svg'
 
-
-function twitterLink(authorTwitter){
-  if(!authorTwitter){
-    return null;
-  }
-  else {
-    twitterLink=`https://twitter.com/${authorTwitter}`
-    return(
-      <a href={twitterLink} target="_blank" rel="noopener noreferrer">
-        {authorTwitter} <img
-              className="fas fa-lg"
-              src={twitter}
-              alt="Twitter"
-              style={{ width: '1em', height: '1em' }}
-            />
-      </a>)
-    }
-  }
-
 export const BlogPostTemplate = ({
   content,
   contentComponent,
@@ -41,6 +22,24 @@ export const BlogPostTemplate = ({
 }) => {
   const PostContent = contentComponent || Content
 
+  function twitterLink(authorTwitter){
+    if(!authorTwitter){
+      return null;
+    }
+    else {
+      twitterLink=`https://twitter.com/${authorTwitter}`
+      return(
+        <a href={twitterLink} target="_blank" rel="noopener noreferrer">
+          {authorTwitter} <img
+                className="fas fa-lg"
+                src={twitter}
+                alt="Twitter"
+                style={{ width: '1em', height: '1em' }}
+              />
+        </a>)
+      }
+    }
+    
   return (
     <section className="section">
       {helmet || ''}

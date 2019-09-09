@@ -14,8 +14,8 @@ const Footer = class extends React.Component {
         <div className="content has-text-centered">
           <img
             src={logo}
-            alt="Kaldi"
-            style={{ width: '14em', height: '10em' }}
+            alt="Hexago.nl"
+            style={{ width: '14em', height: '4em' }}
           />
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
@@ -32,6 +32,11 @@ const Footer = class extends React.Component {
                     <li>
                       <Link className="navbar-item" to="/about">
                         About
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/coc">
+                        Code of hexaConduct
                       </Link>
                     </li>
                   </ul>

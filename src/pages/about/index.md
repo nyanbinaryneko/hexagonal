@@ -19,6 +19,6 @@ With all great shitposts, they start to take on a life of their own. I was accus
 
 ### The Cult
 
-It's a fairly straight forward cult. We worship Hexagons, and yeet computers through Productivity Hexagons into Hexagonal Volcanoes. There aren't many rules, just Praise Hexagon, Maximize Productivity with Hexagons, and be excellent to fellow humans or anthromorphic animals.
+It's a fairly straight forward cult. We worship Hexagons, and yeet computers through Productivity Hexagons into Hexagonal Volcanoes. There aren't many rules, just Praise Hexagon, Maximize Productivity with Hexagons, and be excellent to fellow humans or anthromorphic animals. Please refer to the [Code of hexaConduct (CohC)](/coc) for more information.
 
 ### Praise Hexagon!

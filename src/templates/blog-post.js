@@ -108,7 +108,7 @@ function twitterLink(authorTwitter){
   else {
     twitterLink=`https://twitter.com/${authorTwitter}`
     return(
-      <a href={twitterLink} target="_blank">
+      <a href={twitterLink} target="_blank" rel="noopener noreferrer">
         {authorTwitter} <img
               className="fas fa-lg"
               src={twitter}

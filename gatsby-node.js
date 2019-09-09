@@ -18,6 +18,7 @@ exports.createPages = ({ actions, graphql }) => {
             frontmatter {
               tags
               templateKey
+              author
             }
           }
         }
@@ -36,6 +37,7 @@ exports.createPages = ({ actions, graphql }) => {
       createPage({
         path: edge.node.fields.slug,
         tags: edge.node.frontmatter.tags,
+        authors: edge.node.frontmatter.author,
         component: path.resolve(
           `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
         ),
@@ -66,6 +68,30 @@ exports.createPages = ({ actions, graphql }) => {
         component: path.resolve(`src/templates/tags.js`),
         context: {
           tag,
+        },
+      })
+    })
+
+    // Author pages:
+    let authors = []
+    // Iterate through each post, putting all found tags into `tags`
+    posts.forEach(edge => {
+      if (_.get(edge, `node.frontmatter.author`)) {
+        authors = authors.concat(edge.node.frontmatter.author)
+      }
+    })
+    // Eliminate duplicate tags
+    authors = _.uniq(authors)
+
+    // Make tag pages
+    authors.forEach(author => {
+      const authorPath = `/authors/${_.kebabCase(author)}/`
+
+      createPage({
+        path: authorPath,
+        component: path.resolve(`src/templates/authors.js`),
+        context: {
+          author,
         },
       })
     })

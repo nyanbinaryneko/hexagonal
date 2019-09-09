@@ -8,6 +8,8 @@ description: >-
   wild.
 featuredpost: true
 featuredimage: /img/og-image.jpg
+author: "Comrade Eevee"
+authorTwitter: "@ComradeEevee"
 tags:
   - CohC
   - Cult

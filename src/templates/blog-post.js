@@ -7,6 +7,7 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import '../components/scss/index.scss'
 import '../components/scss/blog-post.scss'
+import twitter from '../img/social/twitter.svg'
 
 export const BlogPostTemplate = ({
   content,
@@ -15,6 +16,9 @@ export const BlogPostTemplate = ({
   tags,
   title,
   helmet,
+  author,
+  authorTwitter,
+  date
 }) => {
   const PostContent = contentComponent || Content
 
@@ -27,6 +31,10 @@ export const BlogPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
+            <h5>
+              By: {author} on {date}
+            </h5>
+            <p>{twitterLink(authorTwitter)}</p>
             <p>{description}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
@@ -53,6 +61,8 @@ BlogPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
+  author: PropTypes.string,
+  authorTwitter: PropTypes.string,
   helmet: PropTypes.object,
 }
 
@@ -65,6 +75,9 @@ const BlogPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
+        author={post.frontmatter.author}
+        authorTwitter={post.frontmatter.authorTwitter}
+        date={post.frontmatter.date}
         helmet={
           <Helmet titleTemplate="%s | Blog">
             <title>{`${post.frontmatter.title}`}</title>
@@ -87,6 +100,25 @@ BlogPost.propTypes = {
   }),
 }
 
+function twitterLink(authorTwitter){
+  console.log(authorTwitter)
+  if(!authorTwitter){
+    return null;
+  }
+  else {
+    twitterLink=`https://twitter.com/${authorTwitter}`
+    return(
+      <a href={twitterLink} target="_blank">
+        {authorTwitter} <img
+              className="fas fa-lg"
+              src={twitter}
+              alt="Twitter"
+              style={{ width: '1em', height: '1em' }}
+            />
+      </a>)
+    }
+  }
+
 export default BlogPost
 
 export const pageQuery = graphql`
@@ -99,6 +131,8 @@ export const pageQuery = graphql`
         title
         description
         tags
+        author
+        authorTwitter
       }
     }
   }

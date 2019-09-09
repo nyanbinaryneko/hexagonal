@@ -30,7 +30,7 @@ export const IndexPageTemplate = ({
         backgroundAttachment: `fixed`,
       }}
     >
-      <div class="box"
+      <div className="box"
         style={{
           display: 'flex',
           height: '150px',

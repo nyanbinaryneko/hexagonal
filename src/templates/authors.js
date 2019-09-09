@@ -32,7 +32,7 @@ class AuthorRoute extends React.Component {
                 style={{ marginBottom: '6rem' }}
               >
                 <h3 className="title is-size-4 is-bold-light">{authorHeader}</h3>
-                <ul className="authorslist">{postLinks}</ul>
+                <ul className="taglist">{postLinks}</ul>
                 <p>
                   <Link to="/authors/">Browse all authors</Link>
                 </p>

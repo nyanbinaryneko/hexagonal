@@ -32,7 +32,7 @@ export const BlogPostTemplate = ({
               {title}
             </h1>
             <h5>
-              By: <Link to={`/authorss/${kebabCase(author)}/`}>{author}</Link> on {date}
+              By: <Link to={`/authors/${kebabCase(author)}/`}>{author}</Link> on {date}
             </h5>
             <p>{twitterLink(authorTwitter)}</p>
             <p>{description}</p>

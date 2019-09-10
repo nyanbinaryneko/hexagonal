@@ -11,4 +11,8 @@ tags:
   - Whitepaper
   - Science
 ---
-While it is fast becoming household knowledge that Hexagons are the most productive and visually pleasing shape, "common knowledge" is nothing unless tested by the rigours of scientific and mathematical study. Recent research delves into the development and modern history of the Hexagon, it's growing use in both modern, high-tech fields and even it's appearance in natural phenomena.
+While it is fast becoming household knowledge that Hexagons are the most productive and visually pleasing shape, "common knowledge" is nothing unless tested by the rigours of scientific and mathematical study. Recent research delves into the development and modern history of the Hexagon, it's growing use in both modern, high-tech fields and even it's appearance in natural phenomena. 
+
+
+
+Read the Whitepaper [here](< /img/hexagons.>).

@@ -3,6 +3,7 @@ templateKey: blog-post
 title: Hexago.nl Whitepaper
 date: 2019-09-10T02:19:30.682Z
 author: Adam O'Grady
+authorTwitter: '@adamjogrady'
 description: Proving the power of Hexagons with science!
 file: /img/hexagons.pdf
 tags:

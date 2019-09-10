@@ -68,9 +68,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/coc">
                 CohC
               </Link>
-              <Link className="navbar-item" to="/img/hexagons.pdf" target="_blank">
+              <a className="navbar-item" href="/img/hexagons.pdf">
                 Whitepaper
-              </Link>
+              </a>
             </div>
           </div>
         </div>

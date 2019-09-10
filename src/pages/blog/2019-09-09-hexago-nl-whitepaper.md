@@ -15,4 +15,4 @@ While it is fast becoming household knowledge that Hexagons are the most product
 
 
 
-Read the Whitepaper [here](< /img/hexagons.>).
+Read the Whitepaper [here](/img/hexagons.pdf).

@@ -32,4 +32,4 @@ Well, its a few things.
 
 You can help by participating, donating stickers or prizes to the weekly hackathon (I'm capping the prizes at like $10).  You can help by judging these projects. You can help by doing stuff that makes you happy and helps with quarantine crazies. 
 
-Stay tuned to hexago.nl for more information.
+Stay tuned to[ hexago.nl](/) for more information.
